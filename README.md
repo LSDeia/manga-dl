@@ -11,11 +11,8 @@ I'm not responsible for any dommage it can cause.
 ## Requirements
 
 * zsh
-
 * curl
-
 * evince
-
 * zip
 
 ## Usage
