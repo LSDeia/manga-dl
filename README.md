@@ -16,11 +16,20 @@
 git clone REPOLINK
 cd manga-DL
 chmod u+x manga.sh
-./manga.sh One-Piece 1046
+./manga.sh d One-Piece 1046
 evince -s One-Piece - 1046.cbz
 ```
 
-You must replace spaces in manga name by dashes ("-").
+## Option
+
+* i -> Get info about the manga (nb chapter and status) ```./manga.sh i Tougen-Anki```
+* d -> Download a specific chapter ```./manga.sh d Tougen-Anki 45```
+* b -> Download all chapter between the two chapters ```./manga.sh Tougen-Anki 10 20```
+* a -> Downloal all chapter ```./manga.sh Tougen-Anki```
+
+You must replace spaces in manga name by dashes ("-") and fisrt letter of each word must be in caps.
+
+## Error
 
 If evince can't read the archive :
 
