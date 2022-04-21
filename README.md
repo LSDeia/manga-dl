@@ -42,7 +42,7 @@ You must replace spaces in manga name by dashes ("-") and fisrt letter of each w
 
 If evince can't read the archive :
 
-* The manga name isn't good, the script won't tell you, (check on mangasee123.com the url of your manga)
+* The manga name isn't good, the script won't tell you, (check your manga url on https://mangasee123.com)
 
 * Your chapter isn't already existing
 
