@@ -13,12 +13,15 @@
 ## Usage
 
 ```shell
-git clone REPOLINK
+git clone https://gitlab.iut-clermont.uca.fr/rearnal/manga-dl.git
 cd manga-DL
-chmod u+x manga.sh
-./manga.sh d One-Piece 1046
-evince -s One-Piece - 1046.cbz
+chmod u+x *.sh
 ```
+
+To read the chapter please use evince with -s option for better experience.  
+```evince -s One-Piece - 1046.cbz```
+
+
 
 ## Option
 
