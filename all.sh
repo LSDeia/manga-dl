@@ -10,9 +10,16 @@ echo -n "Do you really want to download all $NBCHAPTER of $MANGA ? [y/n] : "
 
 read RES
 
-if [ RES=y ]
-then
-    ./batch.sh $1 0 $NBCHAPTER
-else
-    return
-fi
+#if [ RES='y' ]
+#then
+#    ./batch.sh $1 0 $NBCHAPTER
+#else
+#    exit
+#fi
+
+case "${RES}" in
+	"")         echo "No answer"; exit 1 ;;
+    y)     echo DOWNLOAD WILL BEGIN; sleep 1; ./batch.sh $1 0 $NBCHAPTER;;
+    n)     echo DOWNLOAD ABORTED; exit 1;;
+    *)          echo "Unknown res '${RES}'."; exit 1 ;;
+esac
