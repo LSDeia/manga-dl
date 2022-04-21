@@ -2,7 +2,7 @@
 
 ## Description
 
-manga-DL is a script which allows users to download manga chapters from https://mangasee123.com.  
+manga-DL is a script (codé avec le cul) which allows users to download manga chapters from https://mangasee123.com.  
 All chapters are in english, and are compressed in cbz archive (zip archive renamed), it's a common archive format for comics.  
 If you just want the images please remove the zip line in manga.sh.  
 This script might not work for everyone, it can break or bug.
