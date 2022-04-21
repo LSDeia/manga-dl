@@ -8,6 +8,8 @@
 
 * evince
 
+* zip
+
 ## Usage
 
 ```shell
