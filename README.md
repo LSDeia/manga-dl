@@ -33,7 +33,7 @@ To read the chapter please use evince with -s option for better experience.
 * b -> Batch download chapters between two chapters ```./manga.sh b Tougen-Anki 10 20```
 * a -> Download all chapter ```./manga.sh a Tougen-Anki```
 
-You must replace spaces in manga name by dashes ("-") and fisrt letter of each word must be in caps.
+**You must replace spaces in manga name by dashes ("-") and fisrt letter of each word must be in caps.**
 
 ## Errors
 
