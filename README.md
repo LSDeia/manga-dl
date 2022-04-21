@@ -38,7 +38,7 @@ To read the chapter please use evince with -s option for better experience.
 
 You must replace spaces in manga name by dashes ("-") and fisrt letter of each word must be in caps.
 
-## Error
+## Errors
 
 If evince can't read the archive :
 
