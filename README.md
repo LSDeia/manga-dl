@@ -8,13 +8,15 @@
 
 * evince
 
+* zip
+
 ## Usage
 
 ```shell
 git clone REPOLINK
 cd manga-DL
 chmod u+x manga.sh
-./manga One-Piece 1046
+./manga.sh One-Piece 1046
 evince -s One-Piece - 1046.cbz
 ```
 
