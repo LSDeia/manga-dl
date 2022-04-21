@@ -18,7 +18,7 @@ cd manga-DL
 chmod u+x *.sh
 ```
 
-To read the chapter please use evince with -s option for better experience.  
+To read the chapter please use evince with -s option for better experience.
 ```evince -s One-Piece - 1046.cbz```
 
 
