@@ -8,14 +8,14 @@ If you just want the images please remove the zip line in manga.sh.
 This script might not work for everyone, it can break or bug.
 I'm not responsible for any dommage it can cause.
 
-## Requirements
+## Dependencies
 
 * zsh
 * curl
 * evince
 * zip
 
-## Usage
+## Installation
 
 ```shell
 git clone https://gitlab.iut-clermont.uca.fr/rearnal/manga-dl.git
@@ -44,3 +44,17 @@ If evince can't read the archive :
 * Your chapter isn't already existing
 
 * Bug because i make this in 2h
+
+## To-Do
+
+[ ] Make clear output / color output
+
+[ ] Use sed
+
+[ ] Upgrade readme.md
+
+[ ] Create directory for each manga
+
+[ ] Auto caps the searched anime / better search (no dashes needed)
+
+[ ] Resolve .5 chapters
