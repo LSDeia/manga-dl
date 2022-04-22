@@ -47,14 +47,14 @@ If evince can't read the archive :
 
 ## To-Do
 
-[ ] Make clear output / color output
+- [ ] Make clear output / color output
 
-[ ] Use sed
+- [ ] Use sed
 
-[ ] Upgrade readme.md
+- [ ] Upgrade readme.md
 
-[ ] Create directory for each manga
+- [ ] Create directory for each manga
 
-[ ] Auto caps the searched anime / better search (no dashes needed)
+- [ ] Auto caps the searched anime / better search (no dashes needed)
 
-[ ] Resolve .5 chapters
+- [ ] Resolve .5 chapters
