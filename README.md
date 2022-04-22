@@ -26,7 +26,7 @@ chmod u+x *.sh
 To read the chapter please use evince with -s option for better experience.
 ```evince -s One-Piece - 1046.cbz```
 
-## Option
+## Options
 
 * i -> Get info about the manga (nb chapter and status) ```./manga.sh i Tougen-Anki```
 * d -> Download a specific chapter ```./manga.sh d Tougen-Anki 45```
@@ -58,3 +58,13 @@ If evince can't read the archive :
 [ ] Auto caps the searched anime / better search (no dashes needed)
 
 [ ] Resolve .5 chapters
+
+
+
+## Ideas
+
+* Option to just read the manga (downlaod in /tmp ?)
+
+* History of all downloaded manga
+
+* more archive format with an option
